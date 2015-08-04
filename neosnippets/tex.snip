@@ -531,4 +531,10 @@ alias   \label
 # ========== Equations =========
 snippet sum
 alias   \sum
-    \sum_{1:#:frametitle}^{${2:upper}}
+    \sum_{${1:lower}}^{${2:upper}}
+snippet int
+alias   \int \integral
+    \int_{${1:lower}}^{${2:upper}}
+snippet frac
+alias   \frac \fraction
+    \frac{${1:lower}}{${2:upper}}
